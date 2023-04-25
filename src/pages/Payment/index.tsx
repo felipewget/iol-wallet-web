@@ -748,7 +748,7 @@ const FormExecuteOrder: React.FC<formsProps> = ({ setTransaction }) => {
             transaction_id: productData?.uid,
             tip: tip,
             observation: observation ?? "",
-            fields: JSON.stringify(fields),
+            fields: fields,
             timestamp: new Date().getTime(),
         }
 
