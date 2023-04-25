@@ -3,7 +3,7 @@ import logo from './../../assets/imgs/logoWhite.svg'
 
 export const ContainerEnter = styled.div`
     width: 800px;
-    height: 500px;
+    height: 600px;
     background: #444;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ export const ContainerEnter = styled.div`
 
 export const Container = styled.div`
     width: 800px;
-    height: 500px;
+    height: 600px;
     background: #444;
     display: flex;
     flex-direction: row;
@@ -60,7 +60,7 @@ export const Container = styled.div`
         outline: none;
         text-decoration: none;
         width: 300px;
-        height: 500px;
+        height: 600px;
         background: #555;
         overflow-y: auto;
 
@@ -90,7 +90,7 @@ export const Container = styled.div`
 
     & > .content {
         width: 100%;
-        height: 500px;
+        height: 600px;
         overflow-y: auto;
     }
 `

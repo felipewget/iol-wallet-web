@@ -855,7 +855,7 @@ const FormExecuteOrder: React.FC<formsProps> = ({ setTransaction }) => {
                 <textarea placeholder="Observation" value={observation} onChange={(e) => setObservation(e.currentTarget.value)} />
             </FieldTextArea>
 
-            {dataJson && <ButtonSubmit type="button" onClick={() => handle()}>Create Transaction</ButtonSubmit>}
+            <ButtonSubmit type="button" onClick={() => handle()}>Create Transaction</ButtonSubmit>
         </>
     )
 }
